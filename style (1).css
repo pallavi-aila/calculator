@@ -1,0 +1,34 @@
+h2{
+    width: auto;
+    text-transform: rgb(19, 19, 127); 
+    text-align: center;
+}
+.calculator {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: rgb(179, 45, 200);
+  margin:auto ;
+  
+  
+}
+
+.calculator input[type="button"] {
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+   margin: 5px;
+   background-color: rgb(221, 199, 242);
+   position: center;
+ -ms-transform: translate(50%, 50%);
+ transform: translate(3%, 3%);
+}
+
+.calculator input[type="text"] {
+  width: 100%;
+  margin-bottom: 25px;
+  font-size: 50px;
+  padding: 1px;
+  background-color: whitesmoke;
+}
